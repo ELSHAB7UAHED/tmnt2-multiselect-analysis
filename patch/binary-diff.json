@@ -1,0 +1,18 @@
+{
+  "original_sha256": "86d508d0ba5905cb457577a3a43c3e397de5e835e2a221c97c3caca7132069ab",
+  "modified_sha256": "013167342f8aa8952eab389ea547a895249bc9ca132987f84b538a730a1120b9",
+  "original_size": 4796416,
+  "modified_size": 4796416,
+  "diff_ranges": [
+    {
+      "start": 923578,
+      "end": 923579,
+      "length": 2
+    },
+    {
+      "start": 927806,
+      "end": 927811,
+      "length": 6
+    }
+  ]
+}

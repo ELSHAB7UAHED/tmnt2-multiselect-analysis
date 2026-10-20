@@ -1,0 +1,317 @@
+
+/home/ubuntu/tmnt2-multiselect-analysis/extracted/Ninja-Turtles-2-DownloadComputerGames.net/TMNT2.exe:     file format pei-i386
+/home/ubuntu/tmnt2-multiselect-analysis/extracted/Ninja-Turtles-2-DownloadComputerGames.net/TMNT2.exe
+architecture: i386, flags 0x0000010a:
+EXEC_P, HAS_DEBUG, D_PAGED
+start address 0x00615181
+
+Characteristics 0x10f
+	relocations stripped
+	executable
+	line numbers stripped
+	symbols stripped
+	32 bit words
+
+Time/Date		Thu Aug 19 01:29:46 2004
+Magic			010b	(PE32)
+MajorLinkerVersion	7
+MinorLinkerVersion	10
+SizeOfCode		00302000
+SizeOfInitializedData	00190000
+SizeOfUninitializedData	00000000
+AddressOfEntryPoint	00215181
+BaseOfCode		00001000
+BaseOfData		00303000
+ImageBase		00400000
+SectionAlignment	00001000
+FileAlignment		00001000
+MajorOSystemVersion	4
+MinorOSystemVersion	0
+MajorImageVersion	0
+MinorImageVersion	0
+MajorSubsystemVersion	4
+MinorSubsystemVersion	0
+Win32Version		00000000
+SizeOfImage		006d7000
+SizeOfHeaders		00001000
+CheckSum		00000000
+Subsystem		00000002	(Windows GUI)
+DllCharacteristics	00000000
+SizeOfStackReserve	00100000
+SizeOfStackCommit	00001000
+SizeOfHeapReserve	00100000
+SizeOfHeapCommit	00001000
+LoaderFlags		00000000
+NumberOfRvaAndSizes	00000010
+
+The Data Directory
+Entry 0 00000000 00000000 Export Directory [.edata (or where ever we found it)]
+Entry 1 00298f70 000000b4 Import Directory [parts of .idata]
+Entry 2 006d6000 00000a58 Resource Directory [.rsrc]
+Entry 3 00000000 00000000 Exception Directory [.pdata]
+Entry 4 00000000 00000000 Security Directory
+Entry 5 00000000 00000000 Base Relocation Directory [.reloc]
+Entry 6 00000000 00000000 Debug Directory
+Entry 7 00000000 00000000 Description Directory
+Entry 8 00000000 00000000 Special Directory
+Entry 9 00000000 00000000 Thread Storage Directory [.tls]
+Entry a 00000000 00000000 Load Configuration Directory
+Entry b 00000000 00000000 Bound Import Directory
+Entry c 00000000 00000000 Import Address Table Directory
+Entry d 00000000 00000000 Delay Import Directory
+Entry e 00000000 00000000 CLR Runtime Header
+Entry f 00000000 00000000 Reserved
+
+There is an import table in .rdata at 0x698f70
+
+The Import Tables (interpreted .rdata section contents)
+ vma:            Hint    Time      Forward  DLL       First
+                 Table   Stamp     Chain    Name      Thunk
+ 00298f70	00299284 00000000 00000000 002992d2 00239260
+
+	DLL Name: WINMM.dll
+	vma:  Hint/Ord Member-Name Bound-To
+	2999ea	  159  timeBeginPeriod
+	2992a4	  163  timeGetTime
+	2992b2	  165  timeSetEvent
+	2992c2	  164  timeKillEvent
+	2999fc	  160  timeEndPeriod
+
+ 00298f84	0029903c 00000000 00000000 002992dc 00239018
+
+	DLL Name: DSOUND.dll
+	vma:  Hint/Ord Member-Name Bound-To
+	80000001	    1  <none>
+
+ 00298f98	00299034 00000000 00000000 002992fe 00239010
+
+	DLL Name: DINPUT8.dll
+	vma:  Hint/Ord Member-Name Bound-To
+	2992e8	    0  DirectInput8Create
+
+ 00298fac	0029929c 00000000 00000000 0029931c 00239278
+
+	DLL Name: d3d9.dll
+	vma:  Hint/Ord Member-Name Bound-To
+	29930a	    0  Direct3DCreate9
+
+ 00298fc0	00299050 00000000 00000000 00299792 0023902c
+
+	DLL Name: KERNEL32.dll
+	vma:  Hint/Ord Member-Name Bound-To
+	29933c	  375  GetModuleHandleA
+	299350	  363  GetLocalTime
+	299360	  839  Sleep
+	299368	  518  HeapAlloc
+	299374	  520  HeapCreate
+	299382	  522  HeapDestroy
+	299390	  524  HeapFree
+	29939c	  534  HeapValidate
+	2993ac	  528  HeapReAlloc
+	2993ba	  404  GetPrivateProfileStringA
+	2993d6	  921  WritePrivateProfileStringA
+	2993f4	  479  GetVersionExA
+	299404	  822  SetThreadPriority
+	299418	  465  GetThreadPriority
+	29942c	  317  GetCurrentThread
+	299440	  777  SetEvent
+	29944c	  176  ExitThread
+	29945a	  899  WaitForSingleObject
+	299470	  706  ResetEvent
+	29947e	   73  CreateEventA
+	29948e	  105  CreateThread
+	29949e	  339  GetExitCodeThread
+	2994b2	  361  GetLastError
+	2994c2	   77  CreateFileA
+	2994d0	  795  SetLastError
+	2994e0	   46  CloseHandle
+	2994ee	  782  SetFilePointer
+	299500	  347  GetFileSize
+	29950e	  681  ReadFile
+	29951a	  353  GetFullPathNameA
+	29952e	  903  WideCharToMultiByte
+	299544	  947  lstrcmpiA
+	299550	  408  GetProcAddress
+	299562	  584  LoadLibraryA
+	299572	  443  GetSystemInfo
+	299582	  562  IsProcessorFeaturePresent
+	29959e	  606  MapViewOfFile
+	2995ae	   78  CreateFileMappingA
+	2995c4	   80  CreateFileW
+	2995d2	  867  UnmapViewOfFile
+	2995e4	  537  InitializeCriticalSection
+	299600	  122  DeleteCriticalSection
+	299326	  373  GetModuleFileNameA
+	299630	  143  EnterCriticalSection
+	299648	  325  GetDiskFreeSpaceA
+	29965c	  916  WriteFile
+	299668	  396  GetOverlappedResult
+	29967e	  342  GetFileAttributesA
+	299694	  543  InterlockedExchange
+	2996aa	  709  ResumeThread
+	2996ba	  841  SuspendThread
+	2996ca	  663  QueryPerformanceCounter
+	2996e4	  664  QueryPerformanceFrequency
+	299700	  655  PulseEvent
+	29970e	  817  SetThreadAffinityMask
+	299726	  823  SetThreadPriorityBoost
+	299740	  546  InterlockedIncrement
+	299758	  197  FindClose
+	299764	  201  FindFirstFileA
+	299776	  956  lstrlenA
+	299782	  211  FindNextFileA
+	299d12	  550  IsBadCodePtr
+	299d02	  553  IsBadReadPtr
+	299cf2	  891  VirtualQuery
+	299ce0	  437  GetStringTypeW
+	299d22	  889  VirtualProtect
+	299cce	  434  GetStringTypeA
+	299cbc	  565  IsValidCodePage
+	299cac	  567  IsValidLocale
+	299c96	  165  EnumSystemLocalesA
+	299c84	  364  GetLocaleInfoA
+	299c6e	  473  GetUserDefaultLCID
+	299c60	  350  GetFileType
+	299c4e	  791  SetHandleCount
+	299c34	  335  GetEnvironmentStringsW
+	299c1a	  238  FreeEnvironmentStringsW
+	299c02	  333  GetEnvironmentStrings
+	299be8	  237  FreeEnvironmentStringsA
+	299bcc	  864  UnhandledExceptionFilter
+	299bbc	  433  GetStdHandle
+	299bac	  556  IsBadWritePtr
+	299b9c	  883  VirtualAlloc
+	299b8e	  886  VirtualFree
+	299b82	  252  GetCPInfo
+	299b76	  395  GetOEMCP
+	299b6c	  245  GetACP
+	299b60	  530  HeapSize
+	299b4c	  314  GetCurrentProcess
+	299d44	  365  GetLocaleInfoW
+	299d56	  229  FlushFileBuffers
+	299618	  583  LeaveCriticalSection
+	299d34	  810  SetStdHandle
+	299a0c	  714  RtlUnwind
+	299a18	  667  RaiseException
+	299a2a	  175  ExitProcess
+	299a38	  431  GetStartupInfoA
+	299a4a	  264  GetCommandLineA
+	299a5c	  448  GetSystemTimeAsFileTime
+	299a76	  318  GetCurrentThreadId
+	299a8c	  852  TlsAlloc
+	299a98	  853  TlsFree
+	299aa2	  855  TlsSetValue
+	299ab0	  854  TlsGetValue
+	299abe	  827  SetUnhandledExceptionFilter
+	299adc	  469  GetTickCount
+	299aec	  315  GetCurrentProcessId
+	299b02	  570  LCMapStringA
+	299b12	  619  MultiByteToWideChar
+	299b28	  571  LCMapStringW
+	299b38	  847  TerminateProcess
+
+ 00298fd4	0029920c 00000000 00000000 00299974 002391e8
+
+	DLL Name: USER32.dll
+	vma:  Hint/Ord Member-Name Bound-To
+	299968	  422  IsIconic
+	299956	  366  GetWindowLongA
+	29994c	  300  GetMenu
+	29993c	  372  GetWindowRect
+	29992c	  255  GetClientRect
+	29991e	  227  FindWindowA
+	299910	  441  LoadCursorA
+	2998fe	  534  RegisterClassA
+	2998ec	   96  CreateWindowExA
+	2998dc	  511  PeekMessageA
+	2998c8	  682  TranslateMessage
+	2998b4	  161  DispatchMessageA
+	2998a4	  699  UpdateWindow
+	299898	  589  SetCursor
+	29988a	   13  BeginPaint
+	29987e	  200  EndPaint
+	29986c	  142  DefWindowProcA
+	29985c	  153  DestroyWindow
+	299844	  665  SystemParametersInfoA
+	299836	  478  MessageBoxA
+	29982c	  620  SetRect
+	299816	    2  AdjustWindowRectEx
+	299802	  349  GetSystemMetrics
+	2997f0	  640  SetWindowLongA
+	2997d2	  658  ShowWindow
+	2997bc	  599  SetForegroundWindow
+	2997ae	  654  ShowCursor
+	2997a0	  458  LoadStringA
+	2997e0	  643  SetWindowPos
+
+ 00298fe8	00299044 00000000 00000000 002999a2 00239020
+
+	DLL Name: GDI32.dll
+	vma:  Hint/Ord Member-Name Bound-To
+	299992	  143  DeleteObject
+	299980	  421  GetStockObject
+
+ 00298ffc	00299024 00000000 00000000 002999dc 00239000
+
+	DLL Name: ADVAPI32.dll
+	vma:  Hint/Ord Member-Name Bound-To
+	2999ba	  492  RegQueryValueExA
+	2999ac	  457  RegCloseKey
+	2999ce	  481  RegOpenKeyA
+
+ 00299010	00000000 00000000 00000000 00000000 00000000
+
+The .rsrc Resource Directory section:
+000  Type Table: Char: 0, Time: 00000000, Ver: 0/0, Num Names: 0, IDs: 3
+010   Entry: ID: 0x000003, Value: 0x80000028
+028    Name Table: Char: 0, Time: 00000000, Ver: 0/0, Num Names: 0, IDs: 1
+038     Entry: ID: 0x000001, Value: 0x80000070
+070      Language Table: Char: 0, Time: 00000000, Ver: 0/0, Num Names: 0, IDs: 1
+080       Entry: ID: 0x000409, Value: 0x0000b8
+0b8        Leaf: Addr: 0x6d60f0, Size: 0x0008a8, Codepage: 0
+018   Entry: ID: 0x000006, Value: 0x80000040
+040    Name Table: Char: 0, Time: 00000000, Ver: 0/0, Num Names: 0, IDs: 1
+050     Entry: ID: 0x000001, Value: 0x80000088
+088      Language Table: Char: 0, Time: 00000000, Ver: 0/0, Num Names: 0, IDs: 1
+098       Entry: ID: 0x000409, Value: 0x0000c8
+0c8        Leaf: Addr: 0x6d69b0, Size: 0x0000a4, Codepage: 0
+020   Entry: ID: 0x00000e, Value: 0x80000058
+058    Name Table: Char: 0, Time: 00000000, Ver: 0/0, Num Names: 0, IDs: 1
+068     Entry: ID: 0x000066, Value: 0x800000a0
+0a0      Language Table: Char: 0, Time: 00000000, Ver: 0/0, Num Names: 0, IDs: 1
+0b0       Entry: ID: 0x000409, Value: 0x0000d8
+0d8        Leaf: Addr: 0x6d6998, Size: 0x000014, Codepage: 0
+ Resources start at offset: 0xf0
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         00232000  00401000  00401000  00001000  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 _rwcseg       00001000  00633000  00633000  00233000  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 PSFD00        00002000  00634000  00634000  00234000  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  3 PSFD_I        00001000  00636000  00636000  00236000  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  4 PSFD_P        00001000  00637000  00637000  00237000  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  5 PSFD_B        00001000  00638000  00638000  00238000  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  6 .rdata        00061000  00639000  00639000  00239000  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  7 .data         0002a000  0069a000  0069a000  0029a000  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+  8 _rwdseg       00001000  00908000  00908000  002c4000  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+  9 .ysnkvb       000ca000  00909000  00909000  002c5000  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 10 .cuohz        00101000  009d3000  009d3000  0038f000  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 11 .idata        00002000  00ad4000  00ad4000  00490000  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 12 .rsrc         00001000  00ad6000  00ad6000  00492000  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+SYMBOL TABLE:
+no symbols
+
+

@@ -1,0 +1,116 @@
+[
+  {
+    "path": "SeData.bin",
+    "original_sha256": "74a41fb32b0452c871f9cf9a1a51f8fb2429bfc4a85859c2cc1678ea34a6b68f",
+    "modified_sha256": "74a41fb32b0452c871f9cf9a1a51f8fb2429bfc4a85859c2cc1678ea34a6b68f",
+    "changed": false
+  },
+  {
+    "path": "TMNT.DAT",
+    "original_sha256": "cadae3cea3ad60a1f61acf4984f47adb15efccc880fe82c254b332196caa04b2",
+    "modified_sha256": "cadae3cea3ad60a1f61acf4984f47adb15efccc880fe82c254b332196caa04b2",
+    "changed": false
+  },
+  {
+    "path": "TMNT2.exe",
+    "original_sha256": "86d508d0ba5905cb457577a3a43c3e397de5e835e2a221c97c3caca7132069ab",
+    "modified_sha256": "013167342f8aa8952eab389ea547a895249bc9ca132987f84b538a730a1120b9",
+    "changed": true
+  },
+  {
+    "path": "TMNT2.ini",
+    "original_sha256": "f4741948bc7d27ce646c1e72d918a2d5b60b6af5607e4181f66842271d5a0341",
+    "modified_sha256": "f4741948bc7d27ce646c1e72d918a2d5b60b6af5607e4181f66842271d5a0341",
+    "changed": false
+  },
+  {
+    "path": "TMNT2V00.DAT",
+    "original_sha256": "faa0bf662175a949b86adc7c26d73c373d1c99e25bf035ab284f4d085bafa3f5",
+    "modified_sha256": "faa0bf662175a949b86adc7c26d73c373d1c99e25bf035ab284f4d085bafa3f5",
+    "changed": false
+  },
+  {
+    "path": "TMNT2V01.DAT",
+    "original_sha256": "fae85cc00c1c4211f2f82cdd71fd824c533d8781feeadb39ad71bcc2f2aafc86",
+    "modified_sha256": "fae85cc00c1c4211f2f82cdd71fd824c533d8781feeadb39ad71bcc2f2aafc86",
+    "changed": false
+  },
+  {
+    "path": "TMNT2V02.DAT",
+    "original_sha256": "41516da45828aee41c439ab0c2ed1a7ac212e170b0a13f677d3e50260a64b98a",
+    "modified_sha256": "41516da45828aee41c439ab0c2ed1a7ac212e170b0a13f677d3e50260a64b98a",
+    "changed": false
+  },
+  {
+    "path": "TMNT2V03.DAT",
+    "original_sha256": "ba1a209262bc26498a9ce7d0aad7e81a3f02483d4d7a3f8d5cf2a10cca94b75e",
+    "modified_sha256": "ba1a209262bc26498a9ce7d0aad7e81a3f02483d4d7a3f8d5cf2a10cca94b75e",
+    "changed": false
+  },
+  {
+    "path": "TMNT2V04.DAT",
+    "original_sha256": "b8784e72d2bc0e6130b052a0517a059bf9035b126fa8cc6bc3ffc67f5cb5e6bf",
+    "modified_sha256": "b8784e72d2bc0e6130b052a0517a059bf9035b126fa8cc6bc3ffc67f5cb5e6bf",
+    "changed": false
+  },
+  {
+    "path": "TMNT2V05.DAT",
+    "original_sha256": "43701c46e4171e5213b570a24de380bc9a6507e69d04d46cada0a5992e601e89",
+    "modified_sha256": "43701c46e4171e5213b570a24de380bc9a6507e69d04d46cada0a5992e601e89",
+    "changed": false
+  },
+  {
+    "path": "TMNTE.DAT",
+    "original_sha256": "b46c10a85932797e95de9462a49b63929e629ef2c4da2c8dfc8c7cee133894ea",
+    "modified_sha256": "b46c10a85932797e95de9462a49b63929e629ef2c4da2c8dfc8c7cee133894ea",
+    "changed": false
+  },
+  {
+    "path": "TrSeData.bin",
+    "original_sha256": "54785180f3c7dc7c30a57aa02d04cc9353751a74b65dd3c9cd7f0877843b1344",
+    "modified_sha256": "54785180f3c7dc7c30a57aa02d04cc9353751a74b65dd3c9cd7f0877843b1344",
+    "changed": false
+  },
+  {
+    "path": "WaveData.bin",
+    "original_sha256": "172cc0ecd8ae344d3d5f3475bc9fb8084f0a15ad783f5e6ca4c8a94c257fed0d",
+    "modified_sha256": "172cc0ecd8ae344d3d5f3475bc9fb8084f0a15ad783f5e6ca4c8a94c257fed0d",
+    "changed": false
+  },
+  {
+    "path": "tmntsave.dat",
+    "original_sha256": "90701542d8131bd3733a0a32dffbd55189d9efe90c64101147d8c480a0348e9f",
+    "modified_sha256": "90701542d8131bd3733a0a32dffbd55189d9efe90c64101147d8c480a0348e9f",
+    "changed": false
+  },
+  {
+    "path": "www.DownloadComputerGames.net.URL",
+    "original_sha256": "49dd078f014104aaa56989d779282e00e62ae8905cac57a9f6afff4f31cafb28",
+    "modified_sha256": "49dd078f014104aaa56989d779282e00e62ae8905cac57a9f6afff4f31cafb28",
+    "changed": false
+  },
+  {
+    "path": "للمزيد من الالعاب اضغط هنا.URL",
+    "original_sha256": "49dd078f014104aaa56989d779282e00e62ae8905cac57a9f6afff4f31cafb28",
+    "modified_sha256": null,
+    "changed": true
+  },
+  {
+    "path": "ملف هام جدا.txt",
+    "original_sha256": "bcfcaa50229754ee11f9954d64cedc3f68650944f0e52b71beaf454acd591408",
+    "modified_sha256": null,
+    "changed": true
+  },
+  {
+    "path": "┘à┘ä┘ü ┘ç╪º┘à ╪¼╪»╪º.txt",
+    "original_sha256": null,
+    "modified_sha256": "bcfcaa50229754ee11f9954d64cedc3f68650944f0e52b71beaf454acd591408",
+    "changed": true
+  },
+  {
+    "path": "┘ä┘ä┘à╪▓┘è╪» ┘à┘å ╪º┘ä╪º┘ä╪╣╪º╪¿ ╪º╪╢╪║╪╖ ┘ç┘å╪º.URL",
+    "original_sha256": null,
+    "modified_sha256": "49dd078f014104aaa56989d779282e00e62ae8905cac57a9f6afff4f31cafb28",
+    "changed": true
+  }
+]

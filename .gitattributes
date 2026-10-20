@@ -1,0 +1,5 @@
+game/**/*.DAT filter=lfs diff=lfs merge=lfs -text
+game/**/*.bin filter=lfs diff=lfs merge=lfs -text
+game/**/*.exe filter=lfs diff=lfs merge=lfs -text
+TMNT2-decompiled.c filter=lfs diff=lfs merge=lfs -text
+disassembly/*.asm filter=lfs diff=lfs merge=lfs -text
